@@ -2,7 +2,13 @@
 
 
 * {font-family: 'Readex Pro';
-    text-align: justify;}
+    text-align: justify;
+background-color: rgb(88, 9, 34);}
+
+.css-nzvw1x {
+    background-color: #061E42 !important;
+    background-image: none !important;
+}
 
 
 a {
