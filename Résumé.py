@@ -71,25 +71,23 @@ st.write(
 ✔️ Data Analyst at [Parsian Quality and Productivity Research Center]({pqprc_url}) - *Internship*:
     """
 )
-st.write(f""":red[Jun 2023 - Aug 2023 . Tehran, Tehran Province, Iran - Remote]""")
+st.markdown("<span style='color:red'>Jun 2023 - Aug 2023 . Tehran, Tehran Province, Iran - Remote</span>",
+             unsafe_allow_html=True)
 st.write(f"""
 - Exploring the realm of data analysis and working as a machine learning researcher in the field of Remaining Useful Life (RUL) prediction for rollers in the hot and cold rolling process under the supervision of [Dr. Abbas Saghaei]({dr_saghaei_linkedin}).
 - Cleaning and aggregating complex datasets using Python packages like Pandas and Numpy to ensure data quality and integrity.
-- Utilizing Matplotlib and Seaborn to create insightful data visualizations like depicting P control charts. Developing informative dashboards and doing EDA by 
-using Pandas Profiling to provide actionable insights.
+- Utilizing Matplotlib and Seaborn to create insightful data visualizations like depicting P control charts. Developing informative dashboards and doing EDA by using Pandas Profiling to provide actionable insights.
 - Learning and exploring the implementation of metaheuristics optimization techniques in Python to solve complex optimization problems like VRP 🚘.
 """)
 
 st.write("""
 ✔️ Teaching Assistant in Programming Fundamentals (C++) Course at K. N. Toosi University:
 """)
-st.write(f"""
-:red[Oct 2022 - Jan 2023 · 4 mos Tehran Province, Iran]
-"""
-)
+st.markdown("<span style='color:red'>Oct 2022 - Jan 2023 · 4 mos Tehran Province, Iran</span>",
+             unsafe_allow_html=True)
+
 st.write("""
-- Provided individual and group support to students, offering guidance and clarifications on 
- programming concepts, syntax, and problem-solving techniques.
+- Provided individual and group support to students, offering guidance and clarifications on programming concepts, syntax, and problem-solving techniques.
 - Assisted in developing and updating course materials, assignments, and programming exercises.
 - Administered and graded assignments, quizzes, and exams.
 - Assisted students with technical issues, debugging errors, and resolving programming-related challenges.
