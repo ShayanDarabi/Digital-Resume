@@ -3,13 +3,18 @@
 
 * {font-family: 'Readex Pro';
     text-align: justify;
-background-color: rgb(88, 9, 34);}
+    }
 
 .css-nzvw1x {
     background-color: #061E42 !important;
     background-image: none !important;
 }
 
+.streamlit-code-block {
+    background-color: rgb(219, 24, 24);
+    color: black;
+    border: 1px solid gray;
+}
 
 a {
     text-decoration: none;
@@ -24,3 +29,4 @@ hr {
 #MainMenu {visibility: hidden;}
 footer {visibility: hidden;}
 header {visibility: hidden;}
+
