@@ -152,7 +152,7 @@ st.subheader("Licenses & certifications")
 
 machine_learning_course = 'https://www.coursera.org/account/accomplishments/certificate/ENYQR9YR3S8M'
 st.write(f"""
-🏆 [Machine Learning]({machine_learning_course})
+🏆 [Machine Learning Specialization (Andrew Ng)]({machine_learning_course})
 """)
 
 Supervised_course = 'https://www.coursera.org/account/accomplishments/certificate/4PW9GMB764JT'
