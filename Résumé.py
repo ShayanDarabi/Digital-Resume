@@ -71,19 +71,20 @@ st.write(
 ✔️ Data Analyst at [Parsian Quality and Productivity Research Center]({pqprc_url}) - *Internship*:
     """
 )
-st.markdown("<span style='color:red'>Jun 2023 - Aug 2023 . Tehran, Tehran Province, Iran - Remote</span>",
+st.markdown("<span style='color:green'>Jun 2023 - Aug 2023 . Tehran, Tehran Province, Iran - Remote</span>",
              unsafe_allow_html=True)
 st.write(f"""
 - Exploring the realm of data analysis and working as a machine learning researcher in the field of Remaining Useful Life (RUL) prediction for rollers in the hot and cold rolling process under the supervision of [Dr. Abbas Saghaei]({dr_saghaei_linkedin}).
 - Cleaning and aggregating complex datasets using Python packages like Pandas and Numpy to ensure data quality and integrity.
 - Utilizing Matplotlib and Seaborn to create insightful data visualizations like depicting P control charts. Developing informative dashboards and doing EDA by using Pandas Profiling to provide actionable insights.
-- Learning and exploring the implementation of metaheuristics optimization techniques in Python to solve complex optimization problems like VRP 🚘.
+- Learning and exploring the implementation of metaheuristics optimization techniques in Python to solve complex optimization problems like VRP.
 """)
 
+st.write('\n')
 st.write("""
 ✔️ Teaching Assistant in Programming Fundamentals (C++) Course at K. N. Toosi University:
 """)
-st.markdown("<span style='color:red'>Oct 2022 - Jan 2023 · 4 mos Tehran Province, Iran</span>",
+st.markdown("<span style='color:green'>Oct 2022 - Jan 2023 · 4 mos Tehran Province, Iran</span>",
              unsafe_allow_html=True)
 
 st.write("""
@@ -98,24 +99,28 @@ st.write("""
 # --- SKILLS ---
 st.write('\n')
 st.subheader("Skills")
+
+st.write("""
+📚 ML and Statistical Modeling: Logistic Regression, Linear Regression, Decision Trees, etc.
+""")
+
 st.write(
     """
-👩‍💻 Programming: Python (Scikit-learn, Pandas, Numpy), SQL
+🐍 Python (Scikit-learn, Pandas, Numpy)
 """)
 st.write(
     """
-📈Knowledge of Machine Learning, Statistics, and Data Mining.
+❔ SQL
     """
 )
 st.write("""
-📊 Data Visualization: Matplotlib, Seaborn, MS Excel
+📊 Data Visualization: Matplotlib, Seaborn
 """)
+
 st.write("""
-📐 Mathematics: Statistics, Linear Algebra, Calculus
+📐 Mathematics: Statistics, Linear Algebra
 """)
-st.write("""
-📚 Modeling: Logistic regression, Linear Regression, Decision Trees, etc
-""")
+
 st.write("""
 🔰 Familiarity With Version Control Systems Like Git
 """
@@ -135,17 +140,36 @@ st.write("""
 🏃‍♂️ Active Learning
 """)
 #--Licenses & certifications
-Python_course = 'https://quera.org/certificate/fKoLCtfq/'
+
 st.write('\n')
 st.subheader("Licenses & certifications")
-st.write(
-    f"""
-🏆 [Advanced Python Programming and Object-Oriented  Thinking Course]({Python_course})
+
+machine_learning_course = 'https://www.coursera.org/account/accomplishments/certificate/ENYQR9YR3S8M'
+st.write(f"""
+🏆 [Machine Learning]({machine_learning_course})
 """)
+
 Supervised_course = 'https://www.coursera.org/account/accomplishments/certificate/4PW9GMB764JT'
 st.write(f"""
 🏆 [Supervised Machine Learning: Regression and Classification]({Supervised_course})
 """)
+
+neural_course = 'https://www.coursera.org/account/accomplishments/certificate/BPGK6DVN9MGF' 
+st.write(f"""
+🏆 [Neural Networks and Deep Learning]({neural_course})
+""")
+
+advanced_course = 'https://www.coursera.org/account/accomplishments/certificate/PM9NPVSSXCS2'
+st.write(f"""
+🏆 [Advanced Learning Algorithms]({advanced_course})
+""")
+
+Python_course = 'https://quera.org/certificate/fKoLCtfq/'
+st.write(
+    f"""
+🏆 [Advanced Python Programming and Object-Oriented  Thinking Course]({Python_course})
+""")
+
 understanding_course = 'https://www.coursera.org/account/accomplishments/certificate/UR9CPFQKDWU9'
 st.write(f"""
 🏆 [Understanding and Visualizing Data with Python]({understanding_course})
@@ -154,30 +178,18 @@ excel_course = 'https://www.coursera.org/account/accomplishments/specialization/
 st.write(f"""
 🏆 [Excel Skills for Business Specialization]({excel_course})
 """)
-advanced_course = 'https://www.coursera.org/account/accomplishments/certificate/PM9NPVSSXCS2'
-st.write(f"""
-🏆 [Advanced Learning Algorithms]({advanced_course})
-""")
 
-neural_course = 'https://www.coursera.org/account/accomplishments/certificate/BPGK6DVN9MGF' 
-st.write(f"""
-🏆 [Neural Networks and Deep Learning]({neural_course})
-""")
-
-machine_learning_course = 'https://www.coursera.org/account/accomplishments/certificate/ENYQR9YR3S8M'
-st.write(f"""
-🏆 [Machine Learning]({machine_learning_course})
-""")
 data_analysis_course = 'https://freecodecamp.org/certification/ShayanDarabi/data-analysis-with-python-v7'
 st.write(f"""
 🏆 [Data Analysis with Python]({data_analysis_course})
 """)
+
 html_course = 'https://www.coursera.org/account/accomplishments/certificate/ZTTPBRKUSHHL'
 st.write(f"""
 🏆 [Introduction to HTML5]({html_course})
 """)
 
 st.write(f"""
-🏆  Microsoft SQL Server Development for Everyone
+🏆 Microsoft SQL Server Development for Everyone
     """
 )
