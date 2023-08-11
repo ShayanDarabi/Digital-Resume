@@ -7,7 +7,7 @@ st.set_page_config(page_title="Digital CV | Shayan Darabi", page_icon=":wave:")
 # --- PATH SETTINGS ---
 current_dir = Path(__file__).parent if "__file__" in locals() else Path.cwd()
 css_file = current_dir / "styles" / "main.css"
-resume_file = current_dir / "assets" / "Resume Shayan Darabi.pdf"
+resume_file = current_dir / "assets" / "Shayan Darabi Resume.pdf"
 profile_pic = current_dir / "assets" / "profile-pic.png"
 
 
